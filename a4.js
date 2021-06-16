@@ -1,6 +1,7 @@
 var g1 = {
     x: [2017, 2018, 2019, 2020],
     y: [1, 4, 4, 5],
+    width: 0.5,
     name: 'Watergate',
     type: 'bar',
     marker: {
@@ -11,16 +12,18 @@ var g1 = {
   var g2 = {
     x: [2017, 2018, 2019, 2020],
     y: [0, 9, 1, 0],
+    width: 0.5,
     name: 'Spygate',
     type: 'bar',
     marker: {
-      color: '#7B127D',
+      color: '#7A00A3',
     },
   };
   
   var g3 = {
     x: [2017, 2018, 2019, 2020],
     y: [0, 0, 0, 16 ],
+    width: 0.5,
     name: 'Obamagate',
     type: 'bar',
     marker: {

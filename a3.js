@@ -50,7 +50,7 @@ function setBubblePlot(chosenCountry) {
       mode: 'markers',
       marker: {
         size: 10, 
-        color: '#861388'
+        color: '#7A00A3'
       }
     }];
 
@@ -61,7 +61,7 @@ function setBubblePlot(chosenCountry) {
 
 
     var layout = {
-      title: 'Sentiment of Tweets mentioning '+ '<b>' + chosenCountry + '</b>',
+      // title: 'Sentiment of Tweets mentioning '+ '<b>' + chosenCountry + '</b>',
       plot_bgcolor: "#fff",
       paper_bgcolor: "#fff",
       yaxis: {
@@ -76,7 +76,8 @@ function setBubblePlot(chosenCountry) {
         family: "IBM Plex Mono, monospace",
         color: "#222"
       },
-		hoverlabel: { bgcolor: "#FFF"},
+		hoverlabel: { bgcolor: "#FFF"
+    },
 
     };
 

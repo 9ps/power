@@ -1,5 +1,5 @@
 /*
-#7B127D
+#7A00A3
 #2D1FC1
 #C20114
 #ecebe7
@@ -41,16 +41,20 @@
   }
   
   h1 {
-    margin-top: 10;
+    /* margin-top: 10; */
+    line-height: 0;
     margin-bottom: 0;
-    font-size: 3.052rem;
+    font-size: 4.768rem;
     font-weight: bold;
     display: inline-block;
   }
   
-  h2 {font-size: 1.953rem;}
+  h2 {
+    font-size: 1.953rem;
+    font-style: italic;
+  }
   /* h2 {font-size: 1.563rem;} */
-  /* h5 {font-size: 1.25rem;} */ */
+  /* h5 {font-size: 1.25rem;} */
 
 
 /*     font-family: 'IBM Plex Mono', monospace;
@@ -66,7 +70,7 @@
 }
 
 #lhead {
-    color: #7B127D;
+    color: #7A00A3;
 }
 #rhead {
     color: #2D1FC1;
@@ -82,15 +86,16 @@ float:left;
 }
 
 .flexy_right {
-float: right;
+float: none;
 }
 
+
 .control-row {
-    margin-top: 0;
-    padding-left: 100px;
+    padding-top: 1em;
     background-color: #FFF;
     font-family: 'IBM Plex Mono', monospace;
     font-weight: bold;
+    text-align: center;
 }
 
 .tweet {
@@ -98,9 +103,11 @@ float: right;
   text-align: center;
   font-style: italic;
   font-size: 1.563rem;
-  padding: 1em;
+  padding: 2em;
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   background-color: #FFF;
 }
 
@@ -113,7 +120,6 @@ float: right;
   margin-top: 2em;
 }
 
-
 .ur {
   text-decoration: underline;
   text-decoration-color: #C20114;
@@ -121,7 +127,7 @@ float: right;
 
 .up {
   text-decoration: underline;
-  text-decoration-color: #7B127D;
+  text-decoration-color: #7A00A3;
 }
 
 .ub {
@@ -129,6 +135,27 @@ float: right;
   text-decoration-color: #2D1FC1;
 }
 
+.br {
+  font-family: 'IBM Plex Mono', monospace;
+  font-style: normal;
+  font-weight: bold;
+  color: #C20114;
+  font-size: 3.052rem;
+}
+
 em {
   font-style: inherit;
+}
+
+.pad {
+  margin: 2em;
+}
+
+.pad2 {
+  margin: 20vh;
+}
+
+.sml {
+  font-size: 12pt;
+  color: #444;
 }
